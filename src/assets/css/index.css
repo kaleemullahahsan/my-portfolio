@@ -198,6 +198,9 @@ pre[class*="language-"] {
     --chart-4: 280 65% 60%;
     --chart-5: 340 75% 55%;
   }
+  p{
+    @apply selection:bg-[#60a5fa] selection:text-white 
+  }
 }
 
 @layer base {

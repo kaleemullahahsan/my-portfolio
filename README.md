@@ -24,7 +24,7 @@ Welcome to my **portfolio website**! This site showcases my skills, experience, 
 ## Live Preview
 
 Check out the live preview of the portfolio website here:  
-[**Live Demo**](https://codervai.vercel.app/)
+[**Live Demo**](https://kaleeemweb.netlify.app/)
 ---
 ### 🎯 Project Structure
 ```bash
@@ -119,7 +119,7 @@ The portfolio website consists of the following sections:
 - **Styling:** Tailwind CSS
 - **Animations:** Framer Motion
 - **Icons:** React Icons
-- **Deployment:** Vercel
+- **Deployment:** Netlify
 
 ---
 
@@ -189,5 +189,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-<div align="center"> Made with ❤️ by Nazmul Hossain </div>
+<div align="center"> Made with ❤️ by Kaleemullah Ahsan </div>
 

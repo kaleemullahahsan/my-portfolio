@@ -1,11 +1,8 @@
 import React, { useState } from "react";
-import EducationLoader from "@/components/ui/EducationLoader";
 import {
-  Star,
   Award,
   Calendar,
   BookOpen,
-  GraduationCap,
   Trophy,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -15,24 +12,24 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Bachelor of Science in Computer Science (BSCS)",
+      school: "Virtual University of Pakistan",
+      mascot: "🎓",
+      year: "2023 - Present",
+      achievements: ["Currently enrolled", "Strong foundation in programming & software development"],
+      skills: ["JavaScript", "React", "Node.js", "Data Structures", "Algorithms"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Pursuing a BSCS degree with emphasis on modern web technologies, programming languages, and software engineering principles.",
     },
     {
-      degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
-      mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      degree: "WordPress Developer Internship",
+      school: "Coding Force / Space Computer College",
+      mascot: "💻",
+      year: "2023",
+      achievements: ["Completed 3-month course", "Real-world WordPress development experience"],
+      skills: ["WordPress", "PHP", "Theme & Plugin Development", "SEO Basics"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Gained practical experience building and customizing WordPress themes and plugins, improving front-end and back-end development skills.",
     },
   ];
 
@@ -40,9 +37,7 @@ const EducationSection = () => {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
-      transition: {
-        staggerChildren: 0.2,
-      },
+      transition: { staggerChildren: 0.2 },
     },
   };
 
@@ -51,10 +46,7 @@ const EducationSection = () => {
     visible: {
       y: 0,
       opacity: 1,
-      transition: {
-        duration: 0.6,
-        ease: "easeOut",
-      },
+      transition: { duration: 0.6, ease: "easeOut" },
     },
   };
 
@@ -78,8 +70,7 @@ const EducationSection = () => {
             Educational Journey
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-lg">
-            Discover how academic excellence shapes innovative thinking and
-            professional growth.
+            Discover how academic excellence and hands-on experience have shaped my professional growth.
           </p>
         </motion.div>
 
@@ -94,9 +85,7 @@ const EducationSection = () => {
               key={index}
               variants={cardVariants}
               className={`relative border rounded-xl p-8 transition-all duration-300 bg-gray-900/50 backdrop-blur-sm ${
-                hoveredIndex === index
-                  ? "border-teal-500 scale-[1.02]"
-                  : "border-blue-400/20"
+                hoveredIndex === index ? "border-teal-500 scale-[1.02]" : "border-blue-400/20"
               }`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
@@ -105,9 +94,7 @@ const EducationSection = () => {
                 <div className="space-y-2">
                   <div className="flex items-center gap-3">
                     <span className="text-3xl">{edu.mascot}</span>
-                    <h3 className="text-2xl font-bold text-white">
-                      {edu.degree}
-                    </h3>
+                    <h3 className="text-2xl font-bold text-white">{edu.degree}</h3>
                   </div>
                   <p className="text-lg text-gray-300 flex items-center gap-2">
                     <BookOpen className="w-5 h-5 text-teal-500" />
@@ -119,9 +106,7 @@ const EducationSection = () => {
                   </p>
                 </div>
 
-                <p className="text-gray-300 text-sm italic border-l-2 border-teal-500 pl-3">
-                  {edu.description}
-                </p>
+                <p className="text-gray-300 text-sm italic border-l-2 border-teal-500 pl-3">{edu.description}</p>
 
                 <div className="space-y-3">
                   <h4 className="text-sm font-semibold text-white flex items-center gap-2">
@@ -143,10 +128,7 @@ const EducationSection = () => {
 
                 <div className="flex flex-wrap gap-2">
                   {edu.skills.map((skill, i) => (
-                    <span
-                      key={i}
-                      className="px-2 py-1 text-xs rounded bg-blue-500/10 text-blue-300"
-                    >
+                    <span key={i} className="px-2 py-1 text-xs rounded bg-blue-500/10 text-blue-300">
                       {skill}
                     </span>
                   ))}

@@ -53,7 +53,7 @@ export default function Contact() {
 
     // Create a new FormData object to send to Web3Forms API
     const form = new FormData();
-    form.append("access_key", "90f4b8af-e590-42b0-beaf-10b18f66a703"); // Replace with your Web3Forms access key
+    form.append("access_key", "c69deaa1-6b0b-4e8c-8feb-fb0a098c1439"); // Replace with your Web3Forms access key
     form.append("name", formData.name);
     form.append("email", formData.email);
     form.append("subject", formData.subject || "New Contact Form Submission");
@@ -91,7 +91,7 @@ export default function Contact() {
       className="pt-20 lg:pt-[0rem] bg-[#04081A]
  text-white min-h-screen"
     >
-      <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
+      <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8 pt-10 md:pt-20">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Contact Info */}
@@ -112,7 +112,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Email</h3>
-                    <p className="text-gray-400">olovajs@gmail.com</p>
+                    <p className="text-gray-400">kaleemullahahsan0gmail.com</p>
                   </div>
                 </div>
 
@@ -122,7 +122,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold">Location</h3>
-                    <p className="text-gray-400">Laxmipure, Natore 6400</p>
+                    <p className="text-gray-400">Kamalia, Pakistan</p>
                   </div>
                 </div>
               </div>
