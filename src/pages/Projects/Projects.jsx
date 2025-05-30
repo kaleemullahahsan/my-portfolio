@@ -16,6 +16,16 @@ const projects = [
     githubLink: "#",
     liveLink: "https://easycalculator.tech/",
   },
+    {
+    title: "Coming Soon!",
+    description:
+      "",
+    src: "rock.jpg",
+    link: "",
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "#",
+  },
 ];
 
 
