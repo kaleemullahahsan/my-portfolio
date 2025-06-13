@@ -2,8 +2,11 @@ import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
-import HeroImg from "@/assets/images/easyCalculator.png";
-
+import easyCalculator from "@/assets/images/easyCalculator.png";
+import awaisco from "@/assets/images/awaiso.png"
+import pehnawaclothing from "@/assets/images/pehnawaclothing.png"
+import golfriverside from "@/assets/images/golfriverside.png"
+import canadiancarmelite from "@/assets/images/canadiancarmelite.png"
 
 const projects = [
   {
@@ -11,23 +14,52 @@ const projects = [
     description:
       "I create a simple, accurate, user-friendly, and efficient online calculator website to streamline complex calculations and improve everyday efficiency.",
     src: "rock.jpg",
-    link: HeroImg,
+    link: easyCalculator,
     color: "#5196fd",
     githubLink: "#",
     liveLink: "https://easycalculator.tech/",
   },
-    {
-    title: "Coming Soon!",
+  {
+    title: "Awais & Co",
     description:
-      "",
+      "I create a professional company website for Awais & Co., showcasing their services, client portfolio, and contact details. The design is clean and corporate, with a custom-built layout focused on trust and professionalism. Integrated service pages, team info, and call-to-action sections.",
     src: "rock.jpg",
-    link: "",
+    link: awaisco,
     color: "#5196fd",
     githubLink: "#",
-    liveLink: "#",
+    liveLink: "https://awaisco.com/",
+  },
+  {
+    title: "Pehnawa Clothing",
+    description:
+      "I developed a modern, mobile-responsive fashion store for Pehnawa Clothing, a local brand. The site features a clean design, category filtering, smooth checkout, and custom product pages using WooCommerce. Focused on providing a fast and easy shopping experience for both desktop and mobile users.",
+    src: "rock.jpg",
+    link: pehnawaclothing,
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://pehnawaclothing.com",
+  }, 
+   {
+    title: "Golf Riverside",
+    description:
+      "I developed a high-end, image-rich website for Golf Riverside, a luxury golf club and resort. The website includes booking features, location details, image galleries, and event updates. Emphasis was placed on visual appeal and easy navigation.",
+    src: "rock.jpg",
+    link: golfriverside,
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://golfriverside.com",
+  },
+  {
+    title: "Canadian Carmelite",
+    description:
+      "Built and configured a website for Canadian Carmelite, focused on religious education and resources. The project involved setting up a clean, calm UI, uploading resources, and optimizing for mobile. Also worked on site migration using Kinsta hosting.",
+    src: "rock.jpg",
+    link: canadiancarmelite,
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "https://golfriverside.com",
   },
 ];
-
 
 export default function Projects() {
   const container = useRef(null);
