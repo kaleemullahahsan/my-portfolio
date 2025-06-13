@@ -3,10 +3,10 @@ import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import easyCalculator from "@/assets/images/easyCalculator.png";
-import awaisco from "@/assets/images/awaiso.png"
-import pehnawaclothing from "@/assets/images/pehnawaclothing.png"
-import golfriverside from "@/assets/images/golfriverside.png"
-import canadiancarmelite from "@/assets/images/canadiancarmelite.png"
+import awaisco from "@/assets/images/awaiso.png";
+import pehnawaclothing from "@/assets/images/pehnawaclothing.png";
+import golfriverside from "@/assets/images/golfriverside.png";
+import canadiancarmelite from "@/assets/images/canadiancarmelite.png";
 
 const projects = [
   {
@@ -38,8 +38,8 @@ const projects = [
     color: "#5196fd",
     githubLink: "#",
     liveLink: "https://pehnawaclothing.com",
-  }, 
-   {
+  },
+  {
     title: "Golf Riverside",
     description:
       "I developed a high-end, image-rich website for Golf Riverside, a luxury golf club and resort. The website includes booking features, location details, image galleries, and event updates. Emphasis was placed on visual appeal and easy navigation.",
@@ -55,6 +55,14 @@ const projects = [
       "Built and configured a website for Canadian Carmelite, focused on religious education and resources. The project involved setting up a clean, calm UI, uploading resources, and optimizing for mobile. Also worked on site migration using Kinsta hosting.",
     src: "rock.jpg",
     link: canadiancarmelite,
+    color: "#5196fd",
+    githubLink: "#",
+    liveLink: "#",
+  },
+  {
+    title: "Coming Soon!",
+    description: "",
+    src: "rock.jpg",
     color: "#5196fd",
     githubLink: "#",
     liveLink: "#",
