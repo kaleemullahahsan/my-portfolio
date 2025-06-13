@@ -57,7 +57,7 @@ const projects = [
     link: canadiancarmelite,
     color: "#5196fd",
     githubLink: "#",
-    liveLink: "https://golfriverside.com",
+    liveLink: "#",
   },
 ];
 
